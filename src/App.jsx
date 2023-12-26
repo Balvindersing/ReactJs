@@ -16,7 +16,7 @@ function App() {
   })
   return (
     <>
-      <h1>React Context-API Hook Demo </h1>
+      <h1>React Context-API Hook Demo <br/> [Without props-drilling] </h1>
       <div className='main-div'>  <button className='button-18 mg-t' onClick={counterHandler}>Click me {useContextAPI.userName}</button>
 
         <ChildComponent></ChildComponent></div>
